@@ -152,7 +152,7 @@ function App() {
   return (
     <div className="App" id='screen'>
       <div className="titleDiv">
-        <h1 className="title">Learn To Count Money!</h1>
+        <h1 className="title">Practice Counting Money!</h1>
       </div>
       <div className="totalsArea">
         <section className="goalSection totals">
