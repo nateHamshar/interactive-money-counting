@@ -35,7 +35,10 @@ function App() {
     setPenny(0)
   }
   const handleNext = () => {
-    if (parseInt(current) === parseInt(goal)) {
+    if (!parseInt(goal)) {
+      handleReset()
+      setGoal((Math.random() * 1000).toFixed(2))
+    } else if (parseInt(current) === parseInt(goal)) {
       alert("Nice Job!")
       handleReset()
       setGoal((Math.random() * 1000).toFixed(2))
