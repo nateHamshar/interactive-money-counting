@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+.App{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Signika', sans-serif;
+    background-color: rgba(44, 4, 113, 0.829);
+    color: white;
+    height: 100vh;
+}
+*:hover{
+    cursor:default;
+}
+.titleDiv{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -3rem;
+}
+
+.totalsArea{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+.totals{
+    text-align: center;
+}
+.number{
+    font-size: 2rem;
+}
+.buttonArea{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+}
+.nextBtn{
+    border-radius: 100vw;
+    height: 2.5rem;
+    width: 4rem;
+    color: white;
+    background-color: green;
+    margin-top: .25rem;
+    border: 1px solid white;
+    font-weight: 600;
+}
+.resetBtn{
+    background-color: crimson;
+    color:white;
+    border-radius: 100vw;
+    height: 2.5rem;
+    width: 4rem;
+    margin-bottom: .25rem;
+    border: 1px solid white;
+    font-weight: 600;
+}
+.resetBtn:hover, .resetBtn:active{
+    color: crimson;
+    background-color: white;
+    height: 2.75rem;
+    width: 4.25rem;
+    cursor: pointer;
+    border: 3px solid crimson;
+}
+.nextBtn:hover, .nextBtn:active{
+    color: green;
+    background-color: white;
+    height: 2.75rem;
+    width: 4.25rem;
+    cursor: pointer;
+    border: 3px solid green;
+}
+.billsArea{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    text-align: center;
+}
+
+.coinsArea{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.increaseBtn, .decreaseBtn{
+    border-radius: 50%;
+    height: 2.25em;
+    width: 2.25em;
+    color: black;
+    border: 2px solid black;
+    background-color: cyan;
+    font-weight: 900;
+}
+
+.increaseBtn:hover, .increaseBtn:active,
+.decreaseBtn:hover, .decreaseBtn:active{
+    cursor: pointer;
+}
