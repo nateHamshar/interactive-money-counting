@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/interactive-money-counting/static/css/main.933c8029.css",
-    "main.js": "/interactive-money-counting/static/js/main.c77ca999.js",
+    "main.js": "/interactive-money-counting/static/js/main.e044ef16.js",
     "index.html": "/interactive-money-counting/index.html",
     "main.933c8029.css.map": "/interactive-money-counting/static/css/main.933c8029.css.map",
-    "main.c77ca999.js.map": "/interactive-money-counting/static/js/main.c77ca999.js.map"
+    "main.e044ef16.js.map": "/interactive-money-counting/static/js/main.e044ef16.js.map"
   },
   "entrypoints": [
     "static/css/main.933c8029.css",
-    "static/js/main.c77ca999.js"
+    "static/js/main.e044ef16.js"
   ]
 }
