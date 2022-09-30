@@ -23,11 +23,13 @@
 
 .totalsArea{
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
     margin-top: 5%;
 }
 .totals{
     text-align: center;
+    margin: 0 7.5rem;
 }
 .number{
     font-size: 2rem;

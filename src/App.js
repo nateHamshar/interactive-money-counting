@@ -35,8 +35,15 @@ function App() {
     setPenny(0)
   }
   const handleNext = () => {
-    handleReset()
-    setGoal((Math.random() * 1000).toFixed(2))
+    if (parseInt(current) === parseInt(goal)) {
+      alert("Nice Job!")
+      handleReset()
+      setGoal((Math.random() * 1000).toFixed(2))
+    } else  if (parseInt(current) < parseInt(goal)) {
+      alert("You still need to add $" + (parseFloat(goal).toFixed(2) - parseFloat(current).toFixed(2)).toFixed(2) + "!")
+    } else if (parseInt(current) > parseInt(goal)) {
+      alert("You need to take away $" + (parseFloat(current).toFixed(2) - parseFloat(goal).toFixed(2)).toFixed(2) + "!")
+    }
   }
 
   ////////////////////////////////////////////////////////////////////////////////////////////
