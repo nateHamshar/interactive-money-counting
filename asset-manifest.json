@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.3c780cad.css",
-    "main.js": "/react-gh-pages/static/js/main.594f4ea0.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.3c780cad.css.map": "/react-gh-pages/static/css/main.3c780cad.css.map",
-    "main.594f4ea0.js.map": "/react-gh-pages/static/js/main.594f4ea0.js.map"
+    "main.css": "/interactive-money-counting/static/css/main.3c780cad.css",
+    "main.js": "/interactive-money-counting/static/js/main.594f4ea0.js",
+    "index.html": "/interactive-money-counting/index.html",
+    "main.3c780cad.css.map": "/interactive-money-counting/static/css/main.3c780cad.css.map",
+    "main.594f4ea0.js.map": "/interactive-money-counting/static/js/main.594f4ea0.js.map"
   },
   "entrypoints": [
     "static/css/main.3c780cad.css",
